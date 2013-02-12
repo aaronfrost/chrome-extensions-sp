@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Aqui Estoy Yo!",
+  "description": "Esta extension nos avisa cuando aparezca nuestro nombre.",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["http*://*/*"],
+      "js": ["jquery.js", "contentscript.js"]
+    }
+  ]
+}
