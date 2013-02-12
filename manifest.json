@@ -9,5 +9,14 @@
       "matches": ["http://*/*"],
       "js": ["jquery.js", "contentscript.js"]
     }
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions":[
+    "notifications"
+  ],
+  "web_accessible_resources":[
+    "icon19.png"
   ]
 }
